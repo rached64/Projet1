@@ -1,0 +1,98 @@
+.phrase1 {
+	text-decoration: underline;
+	border-width: 2px ;
+	border-style: solid; ;
+	border-color: red ;
+	border-top-left-radius: 25px ;
+	border-bottom-right-radius: 30px ;
+}
+.onp {
+	text-decoration: overline;
+	text-transform: uppercase;
+	word-spacing: 15px ;
+	border-width: 2px ;
+	border-style: solid; ;
+	border-color: black ;
+}
+.aot {
+	text-decoration: line-through;
+	border-width: 2px ;
+	border-style: solid; ;
+	border-color: black ;
+}
+
+p {
+
+	color: red ;
+	font-family: Garamond ; 
+}
+
+h2 {
+	color: green ;
+}
+.premierp {
+	color: yellow ;
+	font-style: italic;
+	font-size: 30pt;
+	font-weight: bold;
+	border-width: 2px ;
+	border-style: solid; ;
+	border-color: black ;
+	 
+}
+#deuxiemep {
+	color-profile: sRGB;
+	border-width: 2px ;
+	border-style: dashed; ;
+	border-color: black ;
+}
+.mot {
+	color: rgb(350,150,130);
+	text-shadow: 1px 1px 1px black inset ;
+
+}
+h1,h2 {font-family: "Times New Roman"}
+#header{color: #930930; font-size: 20px;}
+.teal {
+	color:teal  ;
+}
+.maroon {
+	color: maroon ;
+}
+.citron {
+	color: lime ;
+}
+.gris {
+	color: gray ;
+}
+.vert {
+	color: green ;
+}
+.navy {
+	color: navy ;
+}
+/*.autre {
+	border-width: 4px;
+	border-style: solid;
+	border-color: black ;
+	padding-left:  20px ;
+	margin-right: :  20px;
+}*/
+body {
+	margin:5px;
+	padding: 5px ;
+	color: grey;
+	background-image: url(image.jpg);
+	background-repeat:repeat;
+	background:linear-gradient(blue,white);
+}
+td {
+	border:1px solid yellow;
+}
+table {
+	border-collapse: collapse;
+}
+textarea {
+	width: 200px ;
+	height: 100px ;
+}
